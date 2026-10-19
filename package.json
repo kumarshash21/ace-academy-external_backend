@@ -13,9 +13,9 @@
     "migrate-from-firestore": "tsx src/scripts/migrate-from-firestore.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "pm2:start": "pm2 start ecosystem.config.js",
-    "pm2:stop": "pm2 stop ace-academy-api",
-    "pm2:restart": "pm2 restart ace-academy-api",
-    "pm2:logs": "pm2 logs ace-academy-api",
+    "pm2:stop": "pm2 stop ace_academy_backend_external",
+    "pm2:restart": "pm2 restart ace_academy_backend_external",
+    "pm2:logs": "pm2 logs ace_academy_backend_external",
     "pm2:status": "pm2 status",
     "pm2:save": "pm2 save"
   },

@@ -3,7 +3,7 @@
 module.exports = {
   apps: [
     {
-      name: "ace-academy-api",
+      name: "ace_academy_backend_external",
       script: "dist/server.js",
       cwd: __dirname,
       instances: 1,
